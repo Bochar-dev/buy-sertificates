@@ -1,0 +1,31 @@
+@import './reset';
+
+html,
+body,
+#root {
+	height: 100%;
+}
+
+body {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 160%;
+	color: #000;
+	background-color: #cecece;
+}
+
+#root {
+	display: flex;
+	flex-direction: column;
+
+	.page {
+		flex-grow: 1;
+	}
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 15px;
+	width: 100%;
+	max-width: 1200px;
+}
